@@ -1,0 +1,41 @@
+/* Estilos personalizados para Rdecants */
+
+/* Ajustes generales */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Tarjetas de productos */
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+/* Botones y enlaces */
+.btn-primary, .btn-outline-primary:hover {
+    background-color: #3d5a80;
+    border-color: #3d5a80;
+}
+
+.btn-outline-primary {
+    color: #3d5a80;
+    border-color: #3d5a80;
+}
+
+a {
+    color: #3d5a80;
+}
+
+/* Carrito */
+.cart-item img {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: contain;
+}
